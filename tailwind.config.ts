@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Roboto', '-apple-system', 'Roboto', 'Helvetica', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,16 +50,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+        'btn-primary': 'hsl(var(--btn-primary))',
+        'btn-primary-hover': 'hsl(var(--btn-primary-hover))',
+        'btn-text-primary': 'hsl(var(--btn-text-primary))',
+        'btn-text-disabled': 'hsl(var(--btn-text-disabled))',
+        'btn-light-bg': 'hsl(var(--btn-light-bg))',
       },
       borderRadius: {
         lg: "var(--radius)",
